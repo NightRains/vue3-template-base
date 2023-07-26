@@ -1,0 +1,33 @@
+{
+  "editor.fontSize": 14,
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "vscode.typescript-language-features"
+  },
+  "editor.detectIndentation": false, // vscode默认启用了根据文件类型自动设置tabsize的选项
+  "editor.tabSize": 2, // 重新设定tabsize
+  "editor.formatOnSave": true, // 每次保存的时候自动格式化
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.fontLigatures": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }, // 每次保存的时候将代码按eslint格式进行修复
+  "eslint.alwaysShowStatus": true,
+  "eslint.format.enable": true,
+  "eslint.validate": ["javascript", "html", "vue"],
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "vetur.validation.script": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.mouseWheelZoom": true,
+  "editor.wordWrap": "off",
+  "window.zoomLevel": 0,
+  "vetur.format.options.tabSize": 2,
+  "winopacity.opacity": 80
+}
